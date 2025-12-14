@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+#logo img {
+  width: 100px;
+  height: auto;
+}
+
+#header-doodle {
+  font-family: monospace;
+  color: #666;
+  margin-top: 5px;
+}
+
+nav {
+  text-align: center;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+#menu-toggle {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#about-me .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-img img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bio p {
+  font-size: 16px;
+}
+
+#links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#links li {
+  margin: 5px 0;
+}
+
+#links a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
+
+#resume a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
